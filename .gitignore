@@ -1,0 +1,17 @@
+# Python 虚拟环境目录（本地开发环境，不提交到 GitHub）
+.venv*/
+venv*/
+
+# Python 缓存目录
+__pycache__/
+
+# Python 编译缓存文件
+*.pyc
+*.pyo
+*.pyd
+
+# 本地环境变量文件（可能包含账号、密码、密钥）
+.env
+
+# VS Code 本地编辑器配置
+.vscode/
