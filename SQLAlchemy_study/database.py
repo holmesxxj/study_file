@@ -1,5 +1,7 @@
-from sqlalchemy import create_engine
-from sqlalchemy.orm import DeclarativeBase, sessionmaker
+from datetime import datetime
+
+from sqlalchemy import DateTime, create_engine, func
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, sessionmaker
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./SQLAlchemy_study/study.db"
 
