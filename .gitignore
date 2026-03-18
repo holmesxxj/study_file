@@ -15,3 +15,7 @@ __pycache__/
 
 # VS Code 本地编辑器配置
 .vscode/
+# pytest 
+.pytest_cache/
+.coverage
+htmlcov/
